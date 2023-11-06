@@ -1,3 +1,5 @@
+mod challenge_01;
+use challenge_01::challenge_01;
 fn main() {
-    println!("Hello, world!");
+    challenge_01();
 }
