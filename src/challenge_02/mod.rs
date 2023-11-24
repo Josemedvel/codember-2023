@@ -1,6 +1,5 @@
 use std::fs;
-
-pub fn challenge_02(message:Option<String>) {
+pub fn run_02(message:Option<String>) {
     let contents;
     match message{
         Some(message) => {

@@ -1,6 +1,6 @@
 use std::fs;
 use std::collections::HashMap;
-pub fn challenge_01(message:Option<String>) {
+pub fn run_01(message:Option<String>) {
     let contents;
     match message{
         Some(message) => {
